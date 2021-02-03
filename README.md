@@ -1,6 +1,6 @@
 # 02 Homework - Responsive Portfolio
 
-![Project Screenshot](assets/images/02-advanced-css-homework-demo.gif)
+![Project Screenshot](./assets/images/02-advanced-css-homework-demo.gif)
 
 # Description: to fill
 

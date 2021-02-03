@@ -1,7 +1,7 @@
 header {
     background-color: #888;
-    height: 80px;
-    width: 500px;
+    height: 100px;
+    width: 1080px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,13 +13,18 @@ header {
     font-family:'Courier New', Courier, monospace;
     font-style: oblique;
     border: solid #222 2px;
-    width: 360px;
+    width: 300px;
+    height: 80px;
 }
 
-#about-me {
+.aboutme {
     background-color: #ccc;
     height: 300px;
-    width: 108px;
+    width: 1080px;
+}
+
+nav {
+    border: solid black 2px;
 }
 
 .h1 {
