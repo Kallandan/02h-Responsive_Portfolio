@@ -1,7 +1,25 @@
+header {
+    background-color: #888;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 #name {
     font-size: 32px;
     background-color: rgb(20, 228, 255);
     font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    border: solid #222 2px;
+    width: 360px;
+}
+
+#about-me {
+    background-color: #ccc;
+    height: 300px;
+    width: 108px;
 }
 
 .h1 {
