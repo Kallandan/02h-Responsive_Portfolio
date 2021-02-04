@@ -30,7 +30,10 @@ header {
 }
 
 .aboutme h1 {
-    padding-top: 40%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 nav {
