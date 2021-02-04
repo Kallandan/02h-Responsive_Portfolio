@@ -20,13 +20,16 @@ header {
     border: solid #222 2px;
     width: 300px;
     height: 80px;
+    text-align: center;
+    position: relative;
+    padding-top: 12px;
 }
 
 /* This is the css editor option for our About Me Section */
 .aboutme {
     font-size: 30px;
     background-color: #999;
-    height: 500px;
+    height: 300px;
     text-align: center;
     border: solid black 2px;
 
@@ -40,8 +43,33 @@ header {
     transform: translateY(-50%);
 }
 
+/* This is the css editor option for our About Me Section */
+.projects {
+    font-size: 30px;
+    background-color: #999;
+    height: 300px;
+    text-align: center;
+    border: solid black 2px;
+
+}
+
+/* We modify the actual about me header */
+.projects h1 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* We can modify the text element for the About Me section */
 .abouttext {
+    text-align: left;
+    padding-left: 36px;
+    padding-top: 12px;
+}
+
+/* We can modify the text element for the About Me section */
+.project-text {
     text-align: left;
     padding-left: 36px;
     padding-top: 12px;
@@ -72,7 +100,16 @@ nav {
 
 #out-box{
     width: 100%;
-    height: 500px;
+    height: 300px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#out-box2{
+    width: 100%;
+    height: 300px;
     border: solid 2px black;
     display: flex;
     justify-content: center;
@@ -86,13 +123,33 @@ nav {
 #box2{
     font-size: 20px;
     width: 75%;
-    height: 500px;
+    height: 300px;
+    background-color: rgb(200, 200, 200);
+    border: solid black 2px;
+}
+
+#box3{
+    min-width: 25%;
+}
+
+#box4{
+    font-size: 20px;
+    width: 75%;
+    height: 300px;
     background-color: rgb(200, 200, 200);
     border: solid black 2px;
 }
 
 @media screen and (max-width: 1100px){
     #out-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #out-box2{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -110,6 +167,21 @@ nav {
 
 @media screen and (max-width: 1100px){
     #box2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 785px){
+    #box3{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #box4{
         width: 100%;
     }
 }
