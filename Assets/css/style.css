@@ -2,14 +2,16 @@ body {
     background-color: #01c4ff
 }
 
+/* where we modify the header elements at the top */
 header {
-    background-color: #888;
+    background-color: #666;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+/* The name part of the header */
 #name {
     font-size: 32px;
     background-color: rgb(20, 228, 255);
@@ -30,7 +32,7 @@ header {
 
 }
 
-/* We modify the actual */
+/* We modify the actual about me header */
 .aboutme h1 {
     margin: 0;
     position: relative;
@@ -38,6 +40,7 @@ header {
     transform: translateY(-50%);
 }
 
+/* We can modify the text element for the About Me section */
 .abouttext {
     text-align: left;
     padding-left: 36px;
@@ -47,10 +50,14 @@ header {
 nav {
     border: solid black 2px;
     height: 60px;
-    width: 300px;
+    width: 600px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.nav-box {
+    text-align: center;
 }
 
 .h1 {
