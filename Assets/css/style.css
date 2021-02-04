@@ -25,6 +25,10 @@ header {
     padding-top: 12px;
 }
 
+#img {
+    display: flex;
+}
+
 /* This is the css editor option for our About Me Section */
 .aboutme {
     font-size: 30px;
@@ -141,6 +145,10 @@ nav {
 }
 
 @media screen and (max-width: 1100px){
+    #img{
+        display: flex;
+        flex-direction: row;
+    }
     #out-box{
         display: flex;
         flex-direction: column;
